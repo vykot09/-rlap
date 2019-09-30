@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <title>Ismerkedés az ürlapokkal</title>
+         <meta charset="utf-8">
+         <link rel="stylesheet" href="stilus.css">
+     </head>
+     <body>
+         <form name="urlap" method="get">
+             <fieldset>
+                 <Legend>Feltöltés</Legend>
+                 vezetéknév:
+                 <input type="text" name="veznev"/><br>
+                 keresztnév:
+                <input type="text" name="kernev" />
+                <br />
+                Neme:
+               <input type="radio" name="no" />Nő
+               <input type="radio" name="ferfi" />Férfi <br /> 
+               <button type="button" onclick="feldolgoz()">Elküld</button>
+               </fieldset>
+         </form>
+         <div id="rejto">
+             <p>Ide jön a következö nevek: <span id="nev"></span></p>
+         </div>
+         <script src="gyak.js"></script>
+     </body>
+ </html>

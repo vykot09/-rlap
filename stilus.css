@@ -1,0 +1,15 @@
+#fieldset {
+    width: 30%;
+    border-color: blue;
+    border-style: dashed;
+    background-color: blueviolet;
+}
+
+legend {
+    font-family: sans-serif;
+    color: chartreuse;
+
+}
+#rejto {
+    visibility: hidden;
+}
